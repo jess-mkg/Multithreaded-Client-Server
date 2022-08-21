@@ -1,3 +1,20 @@
+Multithreaded Client Server
+
+The aim of this project was to create a multithreaded client server system to achieve multiprocessing. The client would prompt 
+the user to enter a value which would be shared with the server through shared memory. The value is then roasted 32 times, 
+each rotation initiating a thread to factorise that roasted value using trial of division. The threads would find prime
+factors and share each result with an allocated slot for the client to read.
+
+In addition, the system be able to:
+    ● Handle 10 simultaneous queries without blocking
+    ● Follow a handshake protocol for sharing data between server and client
+    ● Display the progress of each query
+    ● Enable a test mode activated by entering 0 to display the functionality of the threading within the system.
+
+This required utilising what has been taught about multithreading, IPC and
+synchronization in order to achieve the wanted system.
+
+
 
 //////////////////////////////////////////
 Programs provided:
